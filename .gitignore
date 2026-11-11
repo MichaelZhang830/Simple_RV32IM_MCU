@@ -1,0 +1,39 @@
+# Vivado project caches and generated hardware metadata
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+
+# Simulation images written by payload/Makefile and run_sims.tcl work directories
+/sim/
+
+# XSim generated output. Testbench sources under RV32IM.sim/sim_1/new remain tracked.
+*.sim/sim_1/behav/
+*.sim/sim_1/synth/
+*.sim/sim_1/impl/
+xsim.dir/
+*.wdb
+*.pb
+
+# Vivado/XSim logs, journals, and temporary scripts
+*.jou
+*.log
+*.backup.jou
+*.backup.log
+.copilot_*.tcl
+
+# Generated FPGA programming artifacts
+*.bit
+*.bin
+*.mcs
+*.prm
+
+# Firmware build output
+payload/build/
+
+# Common editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+*~
